@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Slider (PJ-02)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="completed-projects">
+        <nav class="completed-pojects__navigation">
+            <button class="completed-pojects__navigation__button" id="button_0">Rostov-on-Don, Admiral</button>
+            <button class="completed-pojects__navigation__button" id="button_1">Sochi Thieves</button>
+            <button class="completed-pojects__navigation__button" id="button_2">Rostov-on-Don Patriotic</button>
+        </nav>
+        <section class="completed-pojects__info">
+            <h1 class="title completed-pojects__info__title">Completed <br>Projects</h1>
+            <p class="completed-pojects__info__description">
+                Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br>
+                market we have made happy more than 1000 families
+            </p>
+            <div class="current-project">
+                <div class="current-project__item">
+                    <h2 class="title current-project__item__title">City:</h2>
+                    <p class="current-project__item__description current-project__item__description_city"></p>
+                </div>
+                <div class="current-project__item">
+                    <h2 class="title current-project__item__title">Apartment area:</h2>
+                    <p class="current-project__item__description current-project__item__description_apartment-area"></p>
+                </div>
+                <div class="current-project__item">
+                    <h2 class="title current-project__item__title">Repair time:</h2>
+                    <p class="current-project__item__description current-project__item__description_repair-time"></p>
+                </div>
+                <div class="current-project__item">
+                    <h2 class="title current-project__item__title">Repair Cost:</h2>
+                    <p class="current-project__item__description current-project__item__description_repair-cost"></p>
+                </div>
+            </div>
+            <nav class="completed-pojects__info__navigation">
+                <button class="arrow arrow-left"><img src="arrow-left.svg"></button>
+                <button class="completed-pojects__info__navigation__button" id="button_0"><img src="item.svg"></button>
+                <button class="completed-pojects__info__navigation__button" id="button_1"><img src="item.svg"></button>
+                <button class="completed-pojects__info__navigation__button" id="button_2"><img src="item.svg"></button>
+                <button class="arrow arrow-right"><img src="arrow-right.svg"></button>
+            </nav>
+        </section>
+        <section class="completed-projects__image-container">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

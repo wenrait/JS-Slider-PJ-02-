@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+img {
+    margin: 0;
+    display: block;
+    width: fit-content;
+    transition: 2s;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+.title {
+    font-family: 'Yeseva One', sans-serif;
+    color: #E3B873;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+
+.completed-projects {
+    width: 1171px;
+    margin: 125px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.completed-pojects__navigation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.completed-pojects__navigation__button {
+    margin-right: 59px;
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 7px 0;
+    text-transform: uppercase;
+    color: #FFFFFF4D;
+}
+
+.completed-pojects__navigation__button:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.completed-pojects__navigation__button_selected {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+
+}
+
+.completed-pojects__info {
+    height: 482px;
+    width: 442px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.completed-pojects__info__title {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-align: left;
+
+}
+
+.completed-pojects__info__description {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.current-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.current-project__item {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+
+.current-project__item__title {
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.current-project__item__description {
+    display: flex;
+    align-items: start;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 0;
+    align-items: baseline;
+}
+
+.completed-pojects__info__navigation {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.arrow:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.completed-pojects__info__navigation__button:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.completed-projects__image-container {
+    width: 679px;
+    height: 483px;
+}
+
+
+
+
